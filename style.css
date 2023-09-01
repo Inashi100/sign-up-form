@@ -9,12 +9,26 @@ width: 100vw;
 height: 100vh;
 }
 .left{
-    background-image: url('images/AI.jpg');
-    width: 35vw;
+    background-image:url('images/AI.jpg');
+    width: 40vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+[src] {
+    width: 15%;
+    margin-left: 40%;
+    margin-top: 15%;
+    
+}
+
+.odin{
+    color: #E5E7EB;
+    font-size: 70px;
+    padding-left: 60%;
+}
+
 .right{
     display: flex;
     flex-direction: column;
@@ -22,16 +36,56 @@ height: 100vh;
     width: 65vw;
 }
 .first{
-    height: 40vh;
+    height: 35vh;
     align-items: flex-end;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 4%;
+    margin-top: 4%;
 }
 
 .second{
-    height: 35vh;
+    height: 40vh;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10px;
 }
+
+.third{
+    height: 30vh;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
 .main-form{
     display: flex;
     flex-direction: row;
+    font-size: smaller;
+}
+
+.form-divs{
+    margin-left: 4%;
+}
+
+.right-form{
+    margin-left: 40px;
+}
+
+/* .left.logo{
+width: 10%;
+} */
+
+.btn-green{
+    background-color:#596D48;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+}
+input{
+width: 200;
+border: 1px solid #E5E7EB;
+border-radius: 3px;
+}
+
+input:focus{
+    border:2px solid blue
 }
